@@ -60,3 +60,56 @@ img {
 .centrar-texto {
     text-align: center;
 }
+
+/* Header */
+.header {
+    background-image:url(../img/banner.jpg);
+    height: 60rem; 
+    background-size: cover; /* Cover para que la imagen ocupe todo el espacio del contenedor */	
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: center center; /* Centrar la imagen */
+}
+.header__texto {
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem; /* Separar el texto del borde superior */
+}
+
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 20rem;
+    }
+   
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between; /* Espacio entre los elementos */
+        align-items: center; /* Centrar verticalmente los elementos */
+    }
+    .logo {
+        color: var(--blanco);
+    }
+    .logo__nombre {
+        font-weight: 400;
+    }
+    .logo__bold {
+        font-weight: 700;
+    }
+}
+/* Navegacion */
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem; /* Espacio entre los elementos */
+    }
+   
+}
+
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
