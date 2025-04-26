@@ -112,3 +112,12 @@ img {
     font-size: 1.8rem;
     color: var(--blanco);
 }
+
+/* Conternido Principal */
+@media (min-width: 768px) {
+    .contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Dos columnas, la primera ocupa el doble que la segunda */
+    gap: 4rem; /* Espacio entre las columnas */;
+    }
+}
