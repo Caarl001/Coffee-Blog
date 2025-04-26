@@ -3,6 +3,7 @@
     --fuenteParrafos: 'Open Sans', sans-serif; 
 
     --primario:#784D3C;
+    --gris:#E1E1E1;
     --blanco:#FFFFFF;
     --negro:#000000;
 }
@@ -120,4 +121,35 @@ img {
     grid-template-columns: 2fr 1fr; /* Dos columnas, la primera ocupa el doble que la segunda */
     gap: 4rem; /* Espacio entre las columnas */;
     }
+}
+
+.entrada {
+    border-bottom: 1px solid var(--gris); /* Borde inferior */
+    margin-bottom: 2rem; /* Separar las entradas entre si */
+}
+.entrada:last-of-type {
+    border: none; /* Eliminar el borde de la ultima entrada */
+    margin-bottom: 0; /* Eliminar el margen de la ultima entrada */
+}
+
+.boton {
+   display: block;
+   font-family: var(--fuenteHeading);
+   color: var(--blanco);
+   text-align: center;
+   padding: 1rem 3rem;
+   font-size: 1.8rem;
+   text-transform: uppercase; /* Mayusculas */
+   font-weight: 700; /* Negrita */
+   margin-bottom: 2rem; /* Separar los botones entre si */
+}
+
+@media (min-width: 768px) {
+   .boton {
+    display: inline-block; /* Mostrar los botones en la misma linea */
+
+   }
+}
+.boton--primario {
+    background-color: var(--negro);
 }
