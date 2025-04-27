@@ -101,6 +101,9 @@ img {
         font-weight: 700;
     }
 }
+.logo {
+    color: var(--blanco);
+}
 /* Navegacion */
 @media (min-width: 768px) {
     .navegacion {
