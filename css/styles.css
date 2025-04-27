@@ -221,3 +221,14 @@ img {
 .curso__label, .curso__info {
     font-size: 2rem;
 }
+
+/* Contacto */
+@media (min-width: 768px) {
+   
+}
+.contacto-bg {
+    background-image: url(../img/contacto.jpg);
+    height: 400px;
+    background-size: cover; /**/
+    background-repeat: no-repeat;
+}
