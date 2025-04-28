@@ -9,3 +9,10 @@ Creating a Coffee Blog Page
 ## 3°: Ahora tenemos que agregar el readme creado en el repositorio
 >git pull origin master --rebase
 ## Con esto pedimos todo lo del repositorio y estomos listos
+
+# Mq add:
+## Presiona control Shift p 
+## coloca: user Snippets
+## Busca CSS.json
+
+> "Crea un Media Querie": {"prefix" : "mq", "body" : @media (min-width: $1) {\n\    $2n}}
