@@ -296,6 +296,21 @@ img {
     font-size: 2rem;
 }
 
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+
+}
+.correcto {
+    background-color:#784D3C;
+    text-align: center;
+    padding: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
 /* Contacto */
 @media (min-width: 768px) {}
 
